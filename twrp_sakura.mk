@@ -22,7 +22,7 @@ PRODUCT_RELEASE_NAME := sakura
 # Inherit from our custom configuration
 $(call inherit-product, build/target/product/embedded.mk)
 
-# Inherit some common Omni stuff.
+# Inherit some common Omnistuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
