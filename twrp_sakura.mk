@@ -23,11 +23,11 @@ PRODUCT_RELEASE_NAME := sakura
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit some common Omnistuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sakura
-PRODUCT_NAME := omni_sakura
+PRODUCT_NAME := twrp_sakura
 PRODUCT_BRAND := xiaomi
 PRODUCT_MODEL := Redmi 6 Pro
 PRODUCT_MANUFACTURER := xiaomi
